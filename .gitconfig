@@ -1,2 +1,5 @@
 [user]
 	name = stackjaeger
+	email = 43479365+Stackjaeger@users.noreply.github.com
+[init]
+	defaultBranch = main
