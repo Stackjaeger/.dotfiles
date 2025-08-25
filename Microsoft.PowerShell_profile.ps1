@@ -13,3 +13,5 @@ Set-PSReadLineKeyHandler -Key DownArrow -Function HistorySearchForward
 set-PSReadLineOption -PredictionSource History
 set-PSReadLineOption -PredictionViewStyle ListView
 set-PSReadLineOption -EditMode Windows
+
+fastfetch
