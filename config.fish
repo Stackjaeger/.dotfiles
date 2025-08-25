@@ -1,7 +1,13 @@
+# --- Si es sesión interactiva ---
 if status is-interactive
-    # Commands to run in interactive sessions can go here
+    # Puedes añadir más comandos interactivos aquí
 end
 
+# --- Inicializar Homebrew (Linuxbrew) ---
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+
+# --- Inicializar Oh My Posh ---
 oh-my-posh init fish --config /home/stackjaeger/.dotfiles/atomic.omp.json | source
+
+# --- Mostrar fastfetch ---
 fastfetch

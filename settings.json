@@ -1,6 +1,41 @@
 {
-    "telemetry.feedback.enabled": false,
-    "chat.agent.enabled": false,
+    "workbench.iconTheme": "material-icon-theme",
+    "terminal.integrated.env.linux": {},
+    "console-ninja.featureSet": "Community",
+    "editor.guides.bracketPairs": true,
+    "highlight.regexes": {
+        "(\\$\\$\\$([a-zA-Z0-9_]+)\\$\\$\\$)": {
+            "filterLanguageRegex": "vb", // Apply only if current file's language matches this regex. Requires double escaping
+            "decorations": [
+                {"color": "#c42828"}
+            ]
+        },
+        "(\\{\\{([a-zA-Z0-9_]+)\\}\\})": {
+            "filterLanguageRegex": "html", // Apply only if current file's language matches this regex. Requires double escaping
+            "decorations": [
+                {"color": "#c42828"}
+            ]
+        }
+    },
+    "git.autofetch": true,
+    "workbench.colorTheme": "One Dark Pro Night Flat",
+    "liveServer.settings.donotShowInfoMsg": true,
+    "editor.wordWrap": "on",
+
+    "material-icon-theme.files.associations": {
+        "*.cdr": "corel-draw",
+        "*.nc": "g-code"
+    },
+    "terminal.integrated.fontFamily": "'0xProto Nerd Font'",
+    "editor.fontFamily": "'0xProto Nerd Font', monospace",
+    "security.workspace.trust.untrustedFiles": "open",
+    "security.allowedUNCHosts": [
+        "wsl.localhost"
+    ],
+    "terminal.integrated.env.windows": {},
     "chat.commandCenter.enabled": false,
-    "chat.notifyWindowOnConfirmation": false
+    "chat.notifyWindowOnConfirmation": false,
+    "telemetry.feedback.enabled": false,
+    "remote.SSH.experimental.chat": false,
+    "chat.agent.enabled": false
 }
