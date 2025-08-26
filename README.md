@@ -1,4 +1,4 @@
-#Linux (WSL)
+# Linux (WSL)
 ## Configurar Bash y .dotfiles
 Instalar Homebrew.
 ```bash
@@ -30,7 +30,7 @@ ln -s /mnt/c/.dotfiles/settings.json ~/.config/.vscode/
 ln -s /mnt/c/.dotfiles/typioca.conf ~/.config/typioca
 ```
 ---
-#Windows
+# Windows
 ## Configurar PowerShell
 Instalar desde la tienda la app PowerShell y ejecutar el comando.
 ```PowerShell
@@ -39,13 +39,13 @@ $PROFILE
 Para tener la ruta del archivos y crear el acceso directo con el comando.
 ```PowerShell
 #Si existe utilizar
-Remove-Item -Path C:\Users\*<USUARIO>*\Documents\PowerShell\Microsoft.PowerShell_profile.ps1
-Remove-Item -Path C:\ProgramData\fastfetch\config.jsonc
-Remove-Item -Path C:\Users\*<USUARIO>*\.gitconfig
+Remove-Item -Path C:\Users\<USUARIO>\Documents\PowerShell\Microsoft.PowerShell_profile.ps1
+Remove-Item -Path C:\Users\<USUARIO>>\.config\fastfetch\config.jsonc
+Remove-Item -Path C:\Users\<USUARIO>\.gitconfig
 
 #Si no existe directamente hacer el link
 New-Item -ItemType SymbolicLink -Path "Ruta\del\archivo\Microsoft.PowerShell_profile.ps1" -Value "C:\.dotfiles\Microsoft.PowerShell_profile.ps1"
-New-Item -ItemType SymbolicLink -Path "C:\ProgramData\fastfetch\config.jsonc" -Value "C:\.dotfiles\config.jsonc"
+New-Item -ItemType SymbolicLink -Path "C:\Users\<USUARIO>>\.config\fastfetch\config.jsonc" -Value "C:\.dotfiles\config.jsonc"
 New-Item -ItemType SymbolicLink -Path "C:\Users\<USUARIO>\.gitconfig" -Value "C:\.dotfiles\.gitconfig"
 
 #Quiza requiera ejecutarse como administrador
