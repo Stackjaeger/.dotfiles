@@ -36,13 +36,13 @@ Para tener la ruta del archivos y crear el acceso directo con el comando.
 ```PowerShell
 #Si existe utilizar
 Remove-Item -Path C:\Users\<USUARIO>\Documents\PowerShell\Microsoft.PowerShell_profile.ps1
-Remove-Item -Path C:\Users\<USUARIO>>\.config\fastfetch\config.jsonc
+Remove-Item -Path C:\Users\<USUARIO>\.config\fastfetch\config.jsonc
 Remove-Item -Path C:\Users\<USUARIO>\.gitconfig
 
 #Si no existe directamente hacer el link
-New-Item -ItemType SymbolicLink -Path "Ruta\del\archivo\Microsoft.PowerShell_profile.ps1" -Value "C:\.dotfiles\Microsoft.PowerShell_profile.ps1"
-New-Item -ItemType SymbolicLink -Path "C:\Users\<USUARIO>>\.config\fastfetch\config.jsonc" -Value "C:\.dotfiles\config.jsonc"
-New-Item -ItemType SymbolicLink -Path "C:\Users\<USUARIO>\.gitconfig" -Value "C:\.dotfiles\.gitconfig"
+New-Item -ItemType SymbolicLink -Path "#:\ruta\del\archivo\Microsoft.PowerShell_profile.ps1" -Value "C:\.dotfiles\windows\Microsoft.PowerShell_profile.ps1"
+New-Item -ItemType SymbolicLink -Path "C:\Users\<USUARIO>\.config\fastfetch\config.jsonc" -Value "C:\.dotfiles\linux\.config\fastfetch\config.jsonc"
+New-Item -ItemType SymbolicLink -Path "C:\Users\<USUARIO>\.gitconfig" -Value "C:\.dotfiles\comun\.gitconfig"
 
 #Quiza requiera ejecutarse como administrador
 start-Process powershell -Verb runas 
