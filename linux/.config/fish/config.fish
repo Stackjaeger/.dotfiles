@@ -7,7 +7,7 @@ end
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 
 # --- Inicializar Oh My Posh ---
-oh-my-posh init fish --config /home/stackjaeger/atomic.omp.json | source
+oh-my-posh init fish --config /home/stackjaeger/.atomic.omp.json | source
 
 # --- Mostrar fastfetch ---
 fastfetch
