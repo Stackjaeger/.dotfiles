@@ -1,4 +1,4 @@
-oh-my-posh init pwsh --config "C:\.dotfiles\atomic.omp.json" | Invoke-Expression
+oh-my-posh init pwsh --config "C:\.dotfiles\comun\.atomic.omp.json" | Invoke-Expression
 
 Import-Module -Name Terminal-Icons
 
