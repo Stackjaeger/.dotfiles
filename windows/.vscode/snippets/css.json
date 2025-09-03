@@ -1,0 +1,10 @@
+{
+	"media query":{
+		"prefix":"mq",
+		"body": ["@media (max-width: ${1:768}px){",
+			"\t$2",
+			"}"
+		],
+		"description": "Agrega Media querys"
+	}
+}

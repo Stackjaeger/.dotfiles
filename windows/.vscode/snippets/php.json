@@ -1,0 +1,16 @@
+{
+	"echo pre":{
+		"prefix":"ep",
+		"body":[
+			"echo \"<pre>\";",
+			"${1:var_dump($2)};",
+			"echo \"</pre>\";"
+		]
+	},
+	"break":{
+		"prefix":"eb",
+		"body":[
+			"echo \"<br/>\";"
+		]
+	}
+}
