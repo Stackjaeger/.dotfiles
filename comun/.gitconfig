@@ -3,3 +3,5 @@
 	email = 43479365+Stackjaeger@users.noreply.github.com
 [init]
 	defaultBranch = main
+[core]
+	editor = \"C:\\Users\\stackjaeger\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\code\" --wait

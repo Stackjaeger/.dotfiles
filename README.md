@@ -22,8 +22,8 @@ ln -s /mnt/c/.dotfiles ~/
 Ejecutar stow para crear los enlaces simbolicos 
 ```bash
 cd ~/.dotfiles
-stow -t ~/linux #en caso de error agregar --adopt
-stow -t ~/comun #en caso de error agregar --adopt
+stow -t ~ linux #en caso de error agregar --adopt
+stow -t ~ comun #en caso de error agregar --adopt
 ```
 ---
 # Windows

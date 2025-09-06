@@ -1,3 +1,5 @@
+set -g fish_greeting ''
+
 # --- Si es sesión interactiva ---
 if status is-interactive
     # Puedes añadir más comandos interactivos aquí
@@ -9,5 +11,5 @@ eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 # --- Inicializar Oh My Posh ---
 oh-my-posh init fish --config /home/stackjaeger/.atomic.omp.json | source
 
-# --- Mostrar fastfetch ---
+# --- Mostrar fastfetch --
 fastfetch
