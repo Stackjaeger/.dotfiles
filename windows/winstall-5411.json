@@ -1,0 +1,35 @@
+{
+  "$schema": "https://aka.ms/winget-packages.schema.1.0.json",
+  "WinGetVersion": "0.3.11201",
+  "Sources": [
+    {
+      "Packages": [
+        { "Id": "Adobe.Acrobat.Reader.64-bit", "Version": "25.001.20672" },
+        { "Id": "Microsoft.VisualStudioCode", "Version": "1.103.2" },
+        { "Id": "ShareX.ShareX", "Version": "18.0.1" },
+        { "Id": "Mozilla.Firefox", "Version": "142.0.1" },
+        { "Id": "Microsoft.PowerToys", "Version": "0.94.0" },
+        { "Id": "advaith.CurrencyConverterPowerToys", "Version": "1.5.4" },
+        { "Id": "Nilesoft.Shell", "Version": "1.9.18" },
+        { "Id": "Git.Git", "Version": "2.51.0" },
+        { "Id": "voidtools.Everything", "Version": "1.4.1.1026" },
+        { "Id": "TablePlus.TablePlus", "Version": "6.6.2" },
+        { "Id": "JanDeDobbeleer.OhMyPosh", "Version": "26.20.1" },
+        { "Id": "Logitech.OptionsPlus", "Version": "1.94.762104" },
+        { "Id": "Responsively.ResponsivelyApp", "Version": "1.17.0" },
+        { "Id": "Fastfetch-cli.Fastfetch", "Version": "2.52.0" },
+        { "Id": "Proton.ProtonDrive", "Version": "1.11.3" },
+        { "Id": "Microsoft.PowerShell", "Version": "7.5.2.0" },
+        { "Id": "Microsoft.WindowsTerminal", "Version": "1.23.12371.0" },
+        { "Id": "lin-ycv.EverythingPowerToys", "Version": "0.91.1" },
+        { "Id": "DBeaver.DBeaver.Community", "Version": "25.2.0" }
+      ],
+      "SourceDetails": {
+        "Argument": "https://winget.azureedge.net/cache",
+        "Identifier": "Microsoft.Winget.Source_8wekyb3d8bbwe",
+        "Name": "winget",
+        "Type": "Microsoft.PreIndexed.Package"
+      }
+    }
+  ]
+}
