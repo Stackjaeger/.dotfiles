@@ -1,3 +1,6 @@
 abbr -a -- mdbsta 'brew services start mariadb'
 abbr -a -- mdbrst 'brew services restart mariadb'
 abbr -a -- mdbstp 'brew services stop mariadb'
+abbr -a -- apasta 'brew services start httpd'
+abbr -a -- aparst 'brew services restart httpd'
+abbr -a -- apastp 'brew services stop httpd'
